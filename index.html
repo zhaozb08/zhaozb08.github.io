@@ -1,0 +1,130 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<title>Zhibing Zhao's Homepage</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type= "text/css" href= "stylesheet.css"></link>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+    		$("#email").hover(function(){
+        		$(this).html( "zhaoz6 AT rpi DOT edu");
+    		},
+
+    		function(){
+        		$(this).html( "move your mouse here to see my email.");
+
+
+    		});
+
+
+    		// $("#avatar").hover(function(){
+      //   		$(this).attr("src", "img/realme.jpg");
+    		// },
+
+    		// function(){
+      //   		$(this).attr("src", "img/boyuan.jpeg");
+    		// });
+
+		});
+	</script>
+
+</head>
+
+<body>
+	<a name = "Top" />
+
+	<div id = "profilephoto"><img id = "avatar" src="img/zzb.jpg"></div>
+	<div id = "basicinfo">
+
+		<h1 class = "heads"><span id = "englishname">Zhibing Zhao</span> <span id = "chinesename">赵志冰</span></h1>
+		<address>Rensselaer Polytechnic Institute (RPI) 110 Eighth Street, <br />Troy, NY USA 12180<br />Office: 123, Amos Eaton</address>
+		<div id = "email">move your mouse here to see my email.</div>
+		<p>My <a href = "docs/cv_zhao.pdf">CV<a> and <a href = "https://scholar.google.com/citations?user=yuj22jQAAAAJ&hl=en"> Google Scholar <a> </p>.
+
+	</div>
+
+	<div class= "break"></div>
+
+	<hr>
+	<div>
+		<p>I am a fifth-year Ph.D. student in <a href = "http://cs.rpi.edu/">Computer Science at RPI<a>. I am currently working on social choice (rank aggregation) problems with Professor <a href="http://www.cs.rpi.edu/~xial/">Lirong Xia</a>.
+	</div>
+
+	<hr>
+	<div>
+                <h3 class = "heads" >Short Bio</h3>
+		<p>Zhibing Zhao is a Ph.D. student at the Department of Computer Science at Rensselaer Polytechnic Institute (RPI). He received his master’s degree from the University of Connecticut and his bachelor’s degree from Tsinghua University, both in Electrical Engineering. His research focuses on efficient learning (statistical inference) of ranking models, in particular, the Random Utility Models (including the Plackett-Luce model) and their mixtures. His strength lies in variance characterization and complexity analysis of inference algorithms, and designing new algorithms that are both statistically and computationally efficient.</p>
+	</div>
+
+        <hr>
+	<div>
+		<h3 class = "heads" >Research</h3>
+		<p> Rank aggregation problems have a wide range of applications, including presidential elections, yelp rating, college ranking, and so on. People (agents) have diverse preferences over the alternatives (presidential candidates, restaurants, etc.) even though there is a ground truth. Ranking models are used to model this uncertainty. My research focuses on efficient estimation of ground truth parameters of ranking models, mainly from the computational perspective. Specifically, I am interested in identifiability of a class of ranking models, the convergence rate of an algorithm, and the statistical accuracy. </p>
+	</div>
+
+	<hr>
+
+	<div>
+
+		<h3 class = "heads">Education</h3>
+			<ul>
+				<li>University of Connecticut, Storrs, CT, US</li>
+				<p>I received my Master's degree in Electrical Engineering at University of Connecticut in 2014. I worked on ocean power generator design and real-time simulations. </p>
+				<li>Tsinghua University, Beijing, China</li>
+				<p>I obtained my Bachelar's degree in Electrical Engineering from Tsinghua University. I worked on a cascade bi-directional DC/DC converter for microgrid applications. </p>
+			</ul>
+
+	</div>
+
+	<hr>
+
+	<div>
+
+	<h3 class = "heads">Publications</h3>
+		<ul>
+			<li><b>Zhibing Zhao</b> and Lirong Xia, <a href = https://arxiv.org/pdf/1910.11721.pdf>Learning Mixtures of Plackett-Luce Models from Structured Partial Orders</a>, in Proceedings of 33rd Conference on Neural Information Processing Systems (NeurIPS-2019).<a href = http://cs.rpi.edu/~xial/Files/NeurIPS19_LMPLMSPO.pdf>[poster]</a><a href = https://github.com/zhaozb08/MixPL-SPO>[code]</a></li>
+			<br>
+			<li>Ao Liu, <b>Zhibing Zhao</b>, Chao Liao, Pinyan Lu and Lirong Xia, <a href = http://www.cs.rpi.edu/~xial/Files/LZLLXAAAI19.pdf>Learning Plackett-Luce Mixtures from Partial Preferences</a>, in Proceedings of 33rd AAAI Conference on Artificial Intelligence (AAAI-2019).</li>
+			<br>
+			<li>Jun Wang, Sujoy Sikdar, Tyler Shepherd, <b>Zhibing Zhao</b>, Chunheng Jiang and Lirong Xia. <a href = http://www.cs.rpi.edu/~xial/Files/WSSZJXAAAI19.pdf>Practical Algorithms for STV and Ranked Pairs with Parallel Universes Tiebreaking</a>, in Proceedings of 33rd AAAI Conference on Artificial Intelligence (AAAI-2019).</li>
+			<br>
+			<li><b>Zhibing Zhao</b>, Haoming Li, Junming Wang, Jeffrey Kephart, Nicholas Mattei, Hui Su and Lirong Xia. "<a href = http://auai.org/uai2018/proceedings/papers/179.pdf>A Cost-Effective Framework for Preference Elicitation and Aggregation</a>", in Proceedings of 34th Conference on Uncertainty in Artifical Intelligence (UAI-2018).</li>
+			<br>
+			<li><b>Zhibing Zhao</b> and Lirong Xia, "<a href = http://proceedings.mlr.press/v80/zhao18d/zhao18d.pdf>Composite Marginal Likelihood Methods for Random Utility Models</a>", in Proceedings of 35th International Conference on Machine Learning (ICML-2018). <a href = http://proceedings.mlr.press/v80/zhao18d/zhao18d-supp.pdf>[Supplementary PDF]</a> and <a href = http://arxiv.org/abs/1806.01426>[arXiv full version]</a>.</li>
+			<br>
+			<li><b>Zhibing Zhao</b>, Tristan Villamil, and Lirong Xia, "<a href = https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16854/16766>Learning Mixtures of Random Utility Models</a>", in Proceedings of 32nd AAAI Conference on Artificial Intelligence (AAAI-2018).</li>
+			<br>
+			<li><b>Zhibing Zhao</b>, Peter Piech and Lirong Xia, "<a href = http://www.jmlr.org/proceedings/papers/v48/zhaob16.pdf>Learning mixtures of Plackett-Luce models</a>"[<a href = http://www.jmlr.org/proceedings/papers/v48/zhaob16-supp.pdf>Supplementary Materials</a>], In Proceedings of the 33rd International Conference on Machine Learning (ICML-2016). <a href = http://arxiv.org/abs/1603.07323>[arXiv version]</a></li>
+			<br>
+			<li>Taofeek Orekan, <b>Zhibing Zhao</b>, Peng Zhang, Jian Zhang, Shengli Zhou, and Jun-Hong Cui, "<a href = http://www.tandfonline.com/doi/pdf/10.1080/15325008.2015.1010664>Maximum lifecycle tracking for tidal energy generation system</a>", Electric Power Components and Systems, 2015.</li>
+			<br>
+			<li><b>Zhibing Zhao</b>, "<a href = http://digitalcommons.uconn.edu/gs_theses/603/>Life-oriented controller design in ocean tidal power applications</a>". Master's Thesis, 2014.</li>
+			<br>
+			<li>Gengfeng Li, Peng Zhang, Peter B. Luh, Wenyuan Li, Zhaohong Bie, Camilo Serna and <b>Zhibing Zhao</b>, "<a href = http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6654346> Risk analysis for distribution systems in the Northeast U. S. under wind storms</a>", IEEE Transactions on Power Systems, March 2014.</li>
+			<br>
+			<li><b>Zhibing Zhao</b>, Peng Zhang, Jun-Hong Cui and Shengli Zhou, "<a href = http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6741219>Life-oriented control of tidal power generation</a>", OCEANS, 2013.</li>
+			<br>
+			<li><b>Zhibing Zhao</b>, Yongdong Li and Bo Dong, "<a href = http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6259100>Modeling and control strategy for cascade bi-directional DC/DC converter in Microgrid</a>", Power Electronics and Motion Control Conference (IPEMC), 2012.</li>
+			<br>
+			<li>Mo Li, Jiansheng Yuan and <b>Zhibing Zhao</b>, "<a href = http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6111045>Low-voltage SPD coordination analysis </a>", 2011 7th Asia-Pacific International Conference on Lightning, 2011.</li>
+		</div>
+
+		<hr>
+
+		<div>
+
+			<h3 class = "heads">Presentations</h3>
+				<ul>
+					<li>Presentation at ICML-18 "Composite Marginal Likelihood Methods for Random Utility Models". <a href = "docs/RBCML.pdf">[slides]</a><a href = "docs/ICML18-poster.pdf">[poster]</a></li>
+					<br>
+					<li><a href = "docs/mixRUM_poster.pdf">Poster</a> presentation at AAAI-18 and CAEC-17 "Learning Mixtures of Random Utility Models".</li>
+					<br>
+					<li>Workshop presentation for EC-15 "<a href = http://www.cs.rpi.edu/~xial/Files/HKXUAI15.pdf>Computing Optimal Bayesian Decisions for Rank Aggregation via MCMC Sampling</a>".</li>
+					<br>
+					<li><a href = "docs/Poster0708.pdf">Poster<a> presentation at UAI-15 "<a href = http://www.cs.rpi.edu/~xial/Files/HKXUAI15.pdf>Computing Optimal Bayesian Decisions for Rank Aggregation via MCMC Sampling</a>".</li>
+				</ul>
+
+		</div>
+</html>
