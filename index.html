@@ -1,105 +1,264 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Zhibing Zhao is a Research Scientist at Meta working on machine learning for ads, search, recommendation, time series, natural language processing, and query optimization."
+    />
+    <title>Zhibing Zhao | Research Scientist at Meta</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas class="field" id="field" aria-hidden="true"></canvas>
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Zhibing Zhao home">
+        <span class="brand-mark">ZZ</span>
+        <span>Zhibing Zhao</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#work">Focus</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a class="nav-pill" href="mailto:zhaozb08@gmail.com">Contact</a>
+      </nav>
+    </header>
 
-  <title>Zhibing Zhao - Home</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <main id="top">
+      <section class="hero section-wrap">
+        <div class="hero-copy">
+          <p class="eyebrow">Research Scientist at Meta</p>
+          <h1>Machine learning for ads, search, recommendation, and intelligent systems.</h1>
+          <p class="hero-text">
+            I am Zhibing Zhao, a Ph.D. in Computer Science based in Bellevue, WA. My work spans
+            ads prediction, learning to rank, recommendation systems, natural language processing,
+            time series, query optimization, statistics, and game theory.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#publications">See research</a>
+            <a class="button ghost" href="assets/docs/cv_zhao.pdf">Download CV</a>
+          </div>
+          <div class="signal-row" aria-label="Research focus areas">
+            <span>Ads prediction</span>
+            <span>Search and recommendation</span>
+            <span>Learning to rank</span>
+          </div>
+        </div>
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+      </section>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+      <section class="intro-band" aria-label="Research thesis">
+        <div class="section-wrap intro-grid">
+          <p class="section-kicker">Research direction</p>
+          <h2>
+            I build models and systems that help products predict, rank, recommend, forecast, and optimize.
+          </h2>
+          <p>
+            My research combines practical industrial ML with foundations in preference learning and
+            social choice, connecting production-scale ranking problems with rigorous models of
+            uncertainty, utility, and choice.
+          </p>
+        </div>
+      </section>
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+      <section class="section-wrap split-section" id="work">
+        <div>
+          <p class="section-kicker">Focus areas</p>
+          <h2>Modern ML for high-impact decision systems.</h2>
+        </div>
+        <div class="feature-list">
+          <article class="feature-card">
+            <span class="card-index">01</span>
+            <div class="feature-body">
+              <h3>Improve ads prediction from model idea to launch</h3>
+              <p>
+                At Meta, I work on conversion prediction with click intent signals, plus end-to-end
+                model building, training, and launch workflows that move measurable global ads
+                metrics.
+              </p>
+              <div class="method-row" aria-label="Methods">
+                <span>Conversion prediction</span>
+                <span>Intent modeling</span>
+                <span>Model launch</span>
+              </div>
+            </div>
+          </article>
+          <article class="feature-card">
+            <span class="card-index">02</span>
+            <div class="feature-body">
+              <h3>Make ranking and recommendation systems more useful</h3>
+              <p>
+                I design ranking and recommendation models that balance relevance gains with the
+                constraints of real product pipelines, where latency, maintainability, and feature
+                quality all matter.
+              </p>
+              <div class="method-row" aria-label="Methods">
+                <span>Hybrid ranking</span>
+                <span>Recommendation</span>
+                <span>Feature design</span>
+              </div>
+            </div>
+          </article>
+          <article class="feature-card">
+            <span class="card-index">03</span>
+            <div class="feature-body">
+              <h3>Use ML to improve systems decisions</h3>
+              <p>
+                I work on models that help infrastructure choose better plans and forecasts, from SQL
+                hint recommendation to adaptive storage-usage prediction.
+              </p>
+              <div class="method-row" aria-label="Methods">
+                <span>SQL optimization</span>
+                <span>Forecasting</span>
+                <span>Applied AI</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+      <section class="section-wrap publication-section" id="publications">
+        <div class="section-heading">
+          <p class="section-kicker">Publications</p>
+          <h2>Recent research</h2>
+        </div>
 
-  <!-- =======================================================
-  * Template Name: Kelly - v4.7.0
-  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
+        <div class="publication-list">
+          <article class="publication-card">
+            <div class="pub-year">AIDB 2023</div>
+            <div>
+              <h3>COOOL: A Learning-To-Rank Approach for SQL Hint Recommendations</h3>
+              <p>
+                Xianghong Xu, <strong>Zhibing Zhao</strong>, Tieying Zhang, Rong Kang, Luming Sun,
+                and Jianjun Chen. AIDB 2023.
+              </p>
+              <a href="https://arxiv.org/abs/2304.04407" rel="noreferrer">Read paper</a>
+            </div>
+          </article>
 
-<body>
+          <article class="publication-card">
+            <div class="pub-year">ICDE 2023</div>
+            <div>
+              <h3>SUFS: A Generic Storage Usage Forecasting Service Through Adaptive Ensemble Learning</h3>
+              <p>
+                Luming Sun, Shijin Gong, Tieying Zhang, Fuxin Jiang, <strong>Zhibing Zhao</strong>,
+                Jianjun Chen, and Xinyu Zhang. ICDE 2023 Industry and Applications Track.
+              </p>
+              <a href="https://doi.org/10.1109/ICDE55515.2023.00243" rel="noreferrer">Read paper</a>
+            </div>
+          </article>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container-fluid d-flex justify-content-between align-items-md-center">
+          <article class="publication-card">
+            <div class="pub-year">IJCAI 2022</div>
+            <div>
+              <h3>Learning Mixtures of Random Utility Models with Features from Incomplete Preferences</h3>
+              <p>
+                <strong>Zhibing Zhao</strong>, Ao Liu, and Lirong Xia. Proceedings of the 31st
+                International Joint Conference on Artificial Intelligence.
+              </p>
+              <a href="https://www.ijcai.org/proceedings/2022/525" rel="noreferrer">Read paper</a>
+            </div>
+          </article>
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Zhibing Zhao (赵志冰)</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+          <article class="publication-card">
+            <div class="pub-year">NeurIPS 2019</div>
+            <div>
+              <h3>Learning Mixtures of Plackett-Luce Models from Structured Partial Orders</h3>
+              <p>
+                <strong>Zhibing Zhao</strong> and Lirong Xia. Proceedings of the 33rd Conference on
+                Neural Information Processing Systems.
+              </p>
+              <a href="https://papers.neurips.cc/paper/9204-learning-mixtures-of-plackett-luce-models-from-structured-partial-orders" rel="noreferrer">Read paper</a>
+            </div>
+          </article>
+        </div>
+      </section>
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="publication.html">Publication</a></li>
-          <li><a href="blog.html">Blog</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+      <section class="experience-band" id="experience">
+        <div class="section-wrap timeline-wrap">
+          <div>
+            <p class="section-kicker">Experience</p>
+            <h2>Research and applied ML across Meta, ByteDance, Microsoft, and academia.</h2>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span>2025 - present</span>
+              <h3>Research Scientist, Meta</h3>
+              <p>Machine learning research for ads prediction and product-facing ranking systems.</p>
+              <ul class="project-list">
+                <li>
+                  Click refinement: conversion prediction with click intent signals, achieving a
+                  statistically significant 0.18% global ads score improvement.
+                </li>
+                <li>
+                  Mastercook Chef: end-to-end model building, training, and launch, also achieving a
+                  statistically significant 0.18% global ads score improvement.
+                </li>
+              </ul>
+            </div>
+            <div class="timeline-item">
+              <span>2022 - 2025</span>
+              <h3>Research Scientist, ByteDance</h3>
+              <p>SQL query optimization with learning-to-rank and storage usage forecasting.</p>
+            </div>
+            <div class="timeline-item">
+              <span>2020 - 2022</span>
+              <h3>Data and Applied Scientist, Microsoft</h3>
+              <p>Hybrid ranking models for search and page recommendation.</p>
+            </div>
+            <div class="timeline-item">
+              <span>2015 - 2020</span>
+              <h3>Research Assistant, Rensselaer Polytechnic Institute</h3>
+              <p>Preference learning and aggregation from rank data.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    </div>
+      <section class="section-wrap writing-section" id="education">
+        <div class="section-heading">
+          <p class="section-kicker">Education</p>
+          <h2>Academic path</h2>
+        </div>
+        <div class="writing-grid">
+          <article class="writing-card">
+            <span>2015 - 2020</span>
+            <h3>Ph.D. in Computer Science, Rensselaer Polytechnic Institute</h3>
+          </article>
+          <article class="writing-card">
+            <span>2012 - 2014</span>
+            <h3>M.S. in Electrical Engineering, University of Connecticut</h3>
+          </article>
+          <article class="writing-card">
+            <span>2008 - 2012</span>
+            <h3>B.Eng. in Electrical Engineering, Tsinghua University</h3>
+          </article>
+        </div>
+      </section>
 
-  </header><!-- End Header -->
+      <section class="contact-band" id="contact">
+        <div class="section-wrap contact-grid">
+          <div>
+            <p class="section-kicker">Contact</p>
+            <h2>Interested in machine learning, ranking, recommendations, or optimization?</h2>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:zhaozb08@gmail.com">zhaozb08@gmail.com</a>
+            <a href="https://github.com/zhaozb08" rel="noreferrer">GitHub</a>
+            <a href="https://scholar.google.com/citations?user=yuj22jQAAAAJ&hl=en" rel="noreferrer">Google Scholar</a>
+            <a href="assets/docs/cv_zhao.pdf">CV</a>
+          </div>
+        </div>
+      </section>
+    </main>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Zhibing Zhao</h1>
-      <h2>Ph.D., Computer Scientist</h2>
-      <a href="about.html" class="btn-about">About Me</a>
-    </div>
-  </section><!-- End Hero -->
+    <footer class="site-footer">
+      <a href="#top">Back to top</a>
+    </footer>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Kelly</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
